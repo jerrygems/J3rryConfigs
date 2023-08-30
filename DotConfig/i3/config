@@ -185,28 +185,21 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# class                 border  backgr. text    indicator child_border
-client.focused          #ff3131 #285577 #ffffff #2e9ef4   #285577
-client.focused_inactive #ff3131 #5f676a #ffffff #484e50   #5f676a
-client.unfocused        #ff3131 #222222 #888888 #292d2e   #222222
-client.urgent           #ff3131 #900000 #ffffff #900000   #900000
-client.placeholder      #ff3131 #0c0c0c #ffffff #000000   #0c0c0c
-
-client.background       #ffffff
+client.focused          #ff5252 #ff6f6f #ffffff #ff7373   #ff6f6f
+client.focused_inactive #d24d57 #ff787d #ffffff #ff7d82   #ff787d
+client.unfocused        #c74d58 #d24d57 #ffbbbb #d24d57   #d24d57
+client.urgent           #ff3030 #ff5252 #ffffff #ff5252   #ff5252
+client.placeholder      #ff784e #ff9f55 #ffffff #ffa46e   #ff9f55
 
 # Customization
 
 # Smart Gaps
-smart_gaps on
-gaps inner 5
-gaps outer 10
-
 smart_borders on
+smart_borders no_gaps
 
-
-default_border pixel 0
-
-
+gaps inner 10
+gaps outer 5
+default_border pixel 4
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 #bar {
