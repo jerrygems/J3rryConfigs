@@ -6,6 +6,5 @@ return require'packer'.startup(function()
     use 'jose-elias-alvarez/nvim-lsp-ts-utils'
 
     use 'neovim/nvim-lspconfig'
-    use 'folke/lsp-colors.nvim'
-    use 'norcalli/nvim-colorizer.lua' 
+    use 'norcalli/nvim-colorizer.lua'
 end)
